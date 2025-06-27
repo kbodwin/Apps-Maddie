@@ -1,9 +1,10 @@
 ---
 title: "Lab Exercise: ANOVA"
-output: learnr::tutorial
-tutorial:
-  id: "Lab_ANOVA"
-  version: 2.0
+output:
+  html_document:
+    toc: true
+    theme: united
+    toc_float: true
 runtime: shiny_prerendered
 ---
 
@@ -13,7 +14,7 @@ if(file.exists("ANOVA-B.html")){
   file.remove("ANOVA-B.html")
 }
 
-require(learnr)
+
 require(ggplot2)
 require(dplyr)
 require(shiny)

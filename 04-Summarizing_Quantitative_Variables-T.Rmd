@@ -1,9 +1,10 @@
 ---
 title: "Summarizing Quantitative Variables"
-output: learnr::tutorial
-tutorial:
-  id: "Lab_Summaries"
-  version: 1.0
+output:
+  html_document:
+    toc: true
+    theme: united
+    toc_float: true
 runtime: shiny_prerendered
 ---
 
@@ -13,7 +14,6 @@ if(file.exists("Summarizing_Quantitative_Variables-T.html")){
   file.remove("Summarizing_Quantitative_Variables-T.html")
 }
 
-require(learnr)
 require(ggplot2)
 require(dplyr)
 require(shiny)

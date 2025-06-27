@@ -1,9 +1,10 @@
 ---
 title: "Summary Statistics"
-output: learnr::tutorial
-tutorial:
-  id: "Lab_Summaries"
-  version: 1.0
+output:
+  html_document:
+    toc: true
+    theme: united
+    toc_float: true
 runtime: shiny_prerendered
 ---
 
@@ -13,7 +14,6 @@ if(file.exists("Summary_Statistics-T.html")){
   file.remove("Summary_Statistics-T.html")
 }
 
-require(learnr)
 require(ggplot2)
 require(dplyr)
 require(shiny)

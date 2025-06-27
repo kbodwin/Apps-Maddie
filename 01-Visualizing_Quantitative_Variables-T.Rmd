@@ -1,8 +1,5 @@
 ---
 title: "Visualizing Quantitative Variables"
-tutorial:
-  id: "Lab_QuantVar"
-  version: 1.0
 runtime: shiny_prerendered
 output:
   html_document:
@@ -17,7 +14,6 @@ if(file.exists("Visualizing_Quantitative_Variables-T.html")){
   file.remove("Visualizing_Quantitative_Variables-T.html")
 }
 
-require(learnr)
 require(ggplot2)
 require(dplyr)
 require(shiny)

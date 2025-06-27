@@ -1,9 +1,10 @@
 ---
 title: "t-tests"
-output: learnr::tutorial
-tutorial:
-  id: "Lab_ttests"
-  version: 2.0
+output:
+  html_document:
+    toc: true
+    theme: united
+    toc_float: true
 runtime: shiny_prerendered
 ---
 
@@ -13,7 +14,7 @@ if(file.exists("t_Tests.html")){
   file.remove("t_Tests.html")
 }
 
-require(learnr)
+
 #require(ggplot2)
 require(dplyr)
 require(shiny)
