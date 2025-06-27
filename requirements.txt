@@ -1,0 +1,4 @@
+tidyverse
+learnr
+shiny
+fmsb
